@@ -1,0 +1,115 @@
+{
+    "summary": {
+        "name": "DEAN HUSAIN",
+        "title": "Systems & Network Specialist",
+        "description": "Computer Science graduate specializing in Network Security and Systems Administration. Direct hands-on experience designing independent homelab security architectures—including air-gapped container environments, virtual machines, and segmented 802.1Q VLAN topologies—alongside freelance IT support. Proficient in Windows & Linux system hardening, Podman/Docker isolation, Wireshark, Nmap, and custom OS/firmware deployment."
+    },
+    "education": [
+        {
+            "institution": "NEW YORK INSTITUTE OF TECHNOLOGY",
+            "years": "2022 – 2026",
+            "degree": "Bachelor of Science in Computer Science (Network Security Concentration)",
+            "location": "New York, NY",
+            "gpa": "3.87 / 4.0",
+            "honors": "Presidential Honor List (7 Semesters, 2023 – 2026)"
+        }
+    ],
+    "skills": [
+        {
+            "category": "NETWORKING & INFRASTRUCTURE",
+            "tags": [
+                "Routers & Switches",
+                "Wireshark",
+                "Nmap / Zenmap",
+                "Cisco IOS",
+                "802.1Q VLANs",
+                "CCTV (NVR/DVR)"
+            ]
+        },
+        {
+            "category": "DEVOPS & VIRTUALIZATION",
+            "tags": [
+                "Docker",
+                "Podman",
+                "VirtualBox",
+                "Virt-manager",
+                "Air-Gapped Workloads",
+                "Linux Admin"
+            ]
+        },
+        {
+            "category": "PROGRAMMING & LANGUAGES",
+            "tags": [
+                "Bash",
+                "Java",
+                "JavaScript",
+                "TypeScript",
+                "HTML5 / CSS3",
+                "SQL"
+            ]
+        },
+        {
+            "category": "TOOLS, OS & SERVICES",
+            "tags": [
+                "Windows",
+                "Linux",
+                "Android",
+                "Git",
+                "VSCodium",
+                "IntelliJ IDEA",
+                "Webflow",
+                "Vercel",
+                "Firebase"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Enterprise-Grade Infrastructure & Network Security Deployment",
+            "date": "May 2026 – June 2026",
+            "bullets": [
+                "Deployed OpenWrt custom firmware onto Google Nest routers (NLS-1304-25) to unlock advanced Layer 3 routing and granular enterprise capabilities.",
+                "Architected a securely segmented network topology using 802.1Q VLANs to isolate Management, IoT, Guest, and Security traffic, reducing internal attack surfaces.",
+                "Engineered strict firewall zone policies to block unauthorized cross-VLAN communication, securing management interfaces (Ports 22, 80, 443).",
+                "Configured a managed Netgear GS308E switch with tagged (trunk) and untagged (access) ports across wireless edge access points and hardwired infra.",
+                "Provisioned static IP reservations for high-availability self-hosted services (Pi-hole, Home Assistant, DVR), preparing for future B.A.T.M.A.N. mesh routing."
+            ]
+        },
+        {
+            "title": "Self Hosted & Air-Gapped Container Architecture",
+            "date": "August 2025 - December 2025",
+            "bullets": [
+                "Proactively hardened containerized Python environments against supply chain risks (e.g., npm compromises) to protect local AI workloads from dependency poisoning.",
+                "Implemented a dual-container architecture separating update tasks from execution via an internet-facing container and a synchronized air-gapped instance.",
+                "Created a custom software-defined network interface in Podman dropping all outbound traffic to completely isolate local AI workloads (ComfyUI, Open WebUI).",
+                "Authored custom Containerfiles to build hardened, pre-configured base images for archival and rapid deployment.",
+                "Configured persistent local storage via volume mounts mapping host directories to container spaces for stateful data retention."
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "title": "IT Solutions Consultant",
+            "company": "Freelance | Queens, NY",
+            "date": "2018 – 2026",
+            "bullets": [
+                "Performed Layer 1–2 physical infrastructure installs for clients, including structured low-voltage cabling, coax/BNC termination, and media converter setups.",
+                "Provisioned, configured, and deployed end-user workstation hardware, managing operating system installations, software baselines, and peripheral integration.",
+                "Delivered Tier 2 remote technical support and endpoint troubleshooting via TeamViewer and RDP, resolving OS-level errors, driver conflicts, and software bugs.",
+                "Deployed IP and analog CCTV security systems, configuring NVR/DVR storage units, local IP assignment, and remote monitoring access for clients.",
+                "Performed deep system diagnostics, malware remediation, and hardware bench repairs to restore performance and safeguard client data integrity."
+            ]
+        },
+        {
+            "title": "Web-Design Intern",
+            "company": "THICK Liaison Services | Elmhurst, NY",
+            "date": "July 2024 – August 2024",
+            "bullets": [
+                "Collaborated in weekly refinement sessions to translate layout mind maps into a fully functional multi-page site using Webflow.",
+                "Engineered and tested responsive breakpoints and alignment configurations for mobile and desktop devices.",
+                "Prototyped high-fidelity landing page animations using Adobe After Effects and integrated Lottie files for performance optimization.",
+                "Applied core HTML/CSS principles within visual development environments to enforce clean frontend layouts."
+            ]
+        }
+    ]
+}
