@@ -65,7 +65,7 @@
     ],
     "projects": [
         {
-            "title": "Enterprise-Grade Infrastructure & Network Security Deployment",
+            "title": "Infrastructure & Network Security Deployment",
             "date": "May 2026 – June 2026",
             "bullets": [
                 "Deployed OpenWrt custom firmware onto Google Nest routers (NLS-1304-25) to unlock advanced Layer 3 routing and granular enterprise capabilities.",
