@@ -2,6 +2,8 @@
     "summary": {
         "name": "DEAN HUSAIN",
         "title": "Systems & Network Specialist",
+        "linkedin": "https://www.linkedin.com/in/deanhusain",
+        "github": "https://github.com/D3anDev",
         "description": "Computer Science graduate specializing in Network Security and Systems Administration. Direct hands-on experience designing independent homelab security architectures—including air-gapped container environments, virtual machines, and segmented 802.1Q VLAN topologies—alongside freelance IT support. Proficient in Windows & Linux system hardening, Podman/Docker isolation, Wireshark, Nmap, and custom OS/firmware deployment."
     },
     "education": [
