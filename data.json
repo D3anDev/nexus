@@ -4,12 +4,12 @@
         "title": "Systems & Network Specialist",
         "linkedin": "https://www.linkedin.com/in/deanhusain",
         "github": "https://github.com/D3anDev",
-        "description": "Computer Science graduate specializing in Network Security and Systems Administration. Direct hands-on experience designing independent homelab security architectures—including air-gapped container environments, virtual machines, and segmented 802.1Q VLAN topologies—alongside freelance IT support. Proficient in Windows & Linux system hardening, Podman/Docker isolation, Wireshark, Nmap, and custom OS/firmware deployment."
+        "description": "Computer Science graduate specializing in Network Security with hands-on experience in Layer 1–3 networking, network infrastructure, Linux/Windows administration, container networking, and technical support. Built and troubleshot segmented firmware, and supported physical network infrastructure. Additional experience building Linux-based GPU/AI workloads and isolated container environments with hands-on systems administration and networking."
     },
     "education": [
         {
             "institution": "NEW YORK INSTITUTE OF TECHNOLOGY",
-            "years": "2022 – 2026",
+            "years": "September 2022 – May 2026",
             "degree": "Bachelor of Science in Computer Science (Network Security Concentration)",
             "location": "New York, NY",
             "gpa": "3.87 / 4.0",
@@ -23,7 +23,7 @@
                 "Routers & Switches",
                 "Wireshark",
                 "Nmap / Zenmap",
-                "Cisco IOS",
+                "Cisco IOS (via Packet Tracer)",
                 "802.1Q VLANs",
                 "CCTV (NVR/DVR)"
             ]
@@ -70,22 +70,25 @@
             "title": "Infrastructure & Network Security Deployment",
             "date": "May 2026 – June 2026",
             "bullets": [
-                "Deployed OpenWrt custom firmware onto Google Nest routers (NLS-1304-25) to unlock advanced Layer 3 routing and granular enterprise capabilities.",
-                "Architected a securely segmented network topology using 802.1Q VLANs to isolate Management, IoT, Guest, and Security traffic, reducing internal attack surfaces.",
-                "Engineered strict firewall zone policies to block unauthorized cross-VLAN communication, securing management interfaces (Ports 22, 80, 443).",
-                "Configured a managed Netgear GS308E switch with tagged (trunk) and untagged (access) ports across wireless edge access points and hardwired infra.",
-                "Provisioned static IP reservations for high-availability self-hosted services (Pi-hole, Home Assistant, DVR), preparing for future B.A.T.M.A.N. mesh routing."
+                "Redesigned a previously flat home network supporting approximately 60 devices, including laptops, phones, smart TVs, IoT devices, smart switches, and security cameras",
+                "Replaced stock firmware on multiple Google Nest routers with OpenWrt and deployed an 802.1Q VLAN architecture separating Management, IoT, Guest, and Security traffic into distinct broadcast domains",
+                "Configured firewall zones and inter-VLAN access policies to restrict unnecessary device-to-device communication while preserving required administrative access over SSH and HTTPS.",
+                "Isolated security camera infrastructure from general household and IoT devices, addressing previously unrestricted access to DVR resources and unintended cross-device discovery and casting.",
+                "Configured a managed Netgear GS308E switch with tagged trunk and untagged access ports, extending VLAN segmentation across wireless access points and wired infrastructure.",
+                "Used Wireshark to validate VLAN isolation before and after segmentation; Management VLAN captures showed that traffic from other broadcast domains was no longer directly visible after segmentation, while permitted outbound traffic remained observable.",
+                "Provisioned static DHCP leases for self-hosted services including Pi-hole, Home Assistant, and DVR infrastructure, establishing predictable addressing for network services."
             ]
         },
         {
-            "title": "Self Hosted & Air-Gapped Container Architecture",
+            "title": "Self-Hosted & Air-Gapped Container Architecture",
             "date": "August 2025 - December 2025",
             "bullets": [
-                "Proactively hardened containerized Python environments against supply chain risks (e.g., npm compromises) to protect local AI workloads from dependency poisoning.",
-                "Implemented a dual-container architecture separating update tasks from execution via an internet-facing container and a synchronized air-gapped instance.",
-                "Created a custom software-defined network interface in Podman dropping all outbound traffic to completely isolate local AI workloads (ComfyUI, Open WebUI).",
-                "Authored custom Containerfiles to build hardened, pre-configured base images for archival and rapid deployment.",
-                "Configured persistent local storage via volume mounts mapping host directories to container spaces for stateful data retention."
+                "Migrated a GPU-accelerated AI workload from Windows to Linux, configuring NVIDIA drivers and Container Device Interface (CDI)-based GPU device exposure for rootless Podman containers in a headless, CLI-driven environment.",
+                "Built custom container images and Containerfiles rather than relying on unverified third-party images, creating reproducible deployment environments under controlled configurations.",
+                "Architected separate network-connected and air-gapped container environments, allowing workloads to retain required GPU, storage, and host resources while restricting unnecessary LAN and Internet access.",
+                "Implemented container network isolation using a custom host-only virtual network interface, preventing offline workloads from accessing external networks while maintaining required host-to-container communication.",
+                "Designed persistent host-mounted storage for multi-gigabyte AI models and datasets, using read-only mounts where appropriate to protect source data across container lifecycles.",
+                "Built reproducible container environments using Podman, Docker images, and custom Containerfiles, enabling consistent deployment and preservation of pre-configured workloads."
             ]
         }
     ],
