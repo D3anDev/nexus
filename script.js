@@ -52,8 +52,8 @@ function renderEducation(educationData) {
             </div>
             <div class="edu-details">
                 <p><strong>Degree:</strong> ${edu.degree}</p>
-                <p><strong>Location:</strong> ${edu.location} | <strong>GPA:</strong> ${edu.gpa}</p>
-                <p><strong>Honors:</strong> ${edu.honors}</p>
+                <p><strong>GPA:</strong> ${edu.gpa} | <strong>Honors:</strong> ${edu.honors}</p>
+                
             </div>
         </div>
         `;

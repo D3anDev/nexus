@@ -11,7 +11,6 @@
             "institution": "NEW YORK INSTITUTE OF TECHNOLOGY",
             "years": "September 2022 – May 2026",
             "degree": "Bachelor of Science in Computer Science (Network Security Concentration)",
-            "location": "New York, NY",
             "gpa": "3.87 / 4.0",
             "honors": "Presidential Honor List (7 Semesters, 2023 – 2026)"
         }
@@ -80,7 +79,7 @@
             ]
         },
         {
-            "title": "Self-Hosted & Air-Gapped Container Architecture",
+            "title": "Self-Hosted & Hardened Container Architecture​",
             "date": "August 2025 - December 2025",
             "bullets": [
                 "Migrated a GPU-accelerated AI workload from Windows to Linux, configuring NVIDIA drivers and Container Device Interface (CDI)-based GPU device exposure for rootless Podman containers in a headless, CLI-driven environment.",
@@ -96,7 +95,7 @@
         {
             "title": "Systems & Network Specialist",
             "company": "Independent | Queens, NY",
-            "date": "2018 – 2026",
+            "date": "July 2018 – January 2026",
             "bullets": [
                 "Performed Layer 1–2 physical infrastructure installs for clients, including structured low-voltage cabling, coax/BNC termination, and media converter setups.",
                 "Provisioned, configured, and deployed end-user workstation hardware, managing operating system installations, software baselines, and peripheral integration.",
